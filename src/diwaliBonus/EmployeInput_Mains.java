@@ -6,9 +6,9 @@ public class EmployeInput_Mains {
 		
 		EmployeInput obj = new EmployeInput();
 		obj.input();
+		obj.calculateBonus();
 		
-		EmployeInput sallary = new EmployeInput();
-		sallary.calculateBonus();
+		
 	}
 
 }

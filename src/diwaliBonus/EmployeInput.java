@@ -11,12 +11,10 @@ to enter the data from the user and calculate total salary of the employee.
 */
 public class EmployeInput {
 	int age,year,sallary;
-		String name;
+	String name;
 		
-	public int input()
-	{
-		
-		
+	public int input() //public static Person getDetails()
+	{		
 		Scanner kb = new Scanner(System.in);
 		System.out.print("Enter the Name of Employe : ");
 		name = kb.nextLine();  
@@ -28,12 +26,17 @@ public class EmployeInput {
 		year = kb.nextInt(); 
 		
 		System.out.print("Enter the Sallary of Employe : ");
-		return sallary = kb.nextInt(); 
-	    //System.out.print(name);		
+		sallary = kb.nextInt(); 
+	    //System.out.print(name);	
+		//return name;
+		
 	}
 	
-	public void calculateBonus(int sallary)
+	public void calculateBonus()
 	{
-		System.out.print(name);
+		System.out.print(age);
+		System.out.print(year);
+		System.out.print(sallary);
+		
 	}
 }
