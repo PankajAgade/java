@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//edited
 //Write a program to display and calculate profit or loss by a suitable example. 
 public class Calculate_Profit_Loss {
 
