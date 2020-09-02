@@ -1,3 +1,4 @@
+package practice;
 import java.util.Scanner;
 
 //Write a program to find sum of all digits of a number entered by the user. 

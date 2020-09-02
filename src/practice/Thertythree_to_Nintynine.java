@@ -1,3 +1,4 @@
+package practice;
 /* Write a program which prints 33 to 999. The numbers should be displayed as: 
 i. For multiples of 3 print "PINK" instead of the number 
 

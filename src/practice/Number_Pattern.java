@@ -1,3 +1,4 @@
+package practice;
 /*WRITE A PROGRAM to print following Pattern 
 
 1 2 3 45 

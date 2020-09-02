@@ -1,3 +1,4 @@
+package practice;
 import java.util.Scanner;
 
 //Write a program to display even and odd numbers between a range entered by the user

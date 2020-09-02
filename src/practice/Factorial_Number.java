@@ -1,3 +1,4 @@
+package practice;
 import java.util.Scanner;
 
 //Write a program to find factorial of a number. 
