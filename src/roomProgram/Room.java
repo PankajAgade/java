@@ -22,9 +22,10 @@ import java.util.Scanner;
 
 public class Room {
 	int length,width,height;
+	Scanner kb = new Scanner(System.in);
 	
 	public Room() {
-		Scanner kb = new Scanner(System.in);
+		
 		System.out.print("Enter the lenghth of WhiteWash : ");
 		length = kb.nextInt();
 		
@@ -51,13 +52,34 @@ public class Room {
 	public void whiteWashingCost(float areaWhiteWash) 
 	{
 		int cost = (int) (areaWhiteWash * 80) ;
-		System.out.println("	Cost of WhiteWash => "+areaWhiteWash);
+		System.out.println("	Cost of WhiteWash => "+cost);
 		flooringCost();
 	}
 	public void flooringCost()
 	{
+		int x;
 		int areaCeiling = length * width;
-		System.out.println("Select option Which floor");
+		System.out.println("	Select option Which floor");
+		System.out.println("	1) geometric flooring.");
+		System.out.println("	2) cement flooring.");
+		System.out.print("		Enter the option : ");
+		x = kb.nextInt();
+		
+		switch (x)
+		{
+		case 1:
+			int flooringCost1 = areaCeiling * 200;
+			System.out.print("		Flooring Cost is : "+flooringCost1);
+			break;
+			
+		case 2:
+			int flooringCost2 = areaCeiling * 100;
+			System.out.print("		Flooring Cost is : "+flooringCost2);
+			break;
+
+		default:
+			break;
+		}
 	}
 	
 }
